@@ -1,0 +1,16 @@
+{
+  "name": "solid-poster",
+  "version": "1.0.0",
+  "description": "A printable site intended to hang on the wall of my office",
+  "main": "index.html",
+  "scripts": {
+    "sass:watch": "node-sass style.sass public/css/style.css --watch",
+    "sass": "node-sass style.sass public/css/style.css"
+  },
+  "author": "Maximilian Bethke",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "sass": "^1.57.1"
+  }
+}
